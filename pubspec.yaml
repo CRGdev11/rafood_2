@@ -41,6 +41,9 @@ dependencies:
   flutter_secure_storage: ^6.1.0
   get: ^4.6.5
   dots_indicator: ^2.1.0
+  #Depependencias firebase
+  firebase_core: ^2.4.0
+  cloud_firestore: ^4.2.0
 
 dev_dependencies:
   flutter_test:

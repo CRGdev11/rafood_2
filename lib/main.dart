@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rafood/providers/theme_provider.dart';
 import 'package:flutter_rafood/routes/app_routes.dart';
-
 import 'package:flutter_rafood/screens/screens.dart';
 import 'package:flutter_rafood/services/servicios.dart';
 import 'package:flutter_rafood/share_preferences/preferences.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
